@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luciano Luján – Diseño Gráfico</title>
+  <style>
+    :root{
+      --verde-agua:#3AE2A6;
+      --verde-oscuro:#0A4D3A;
+    }
+    body{margin:0;font-family:'Segoe UI',sans-serif;background:#fff;color:#111}
+    header{background:var(--verde-agua);padding:2rem 1rem;text-align:center;color:#fff}
+    header img{width:90px;height:90px;border-radius:50%;object-fit:cover;border:3px solid #fff}
+    header h1{font-size:2rem;margin:.4rem 0 0}
+    nav{background:#f7f7f7;padding:.5rem;text-align:center}
+    nav a{color:var(--verde-oscuro);margin:0 1rem;text-decoration:none;font-weight:bold}
+    section{padding:2rem 1rem;max-width:960px;margin:auto}
+    .grid{display:grid;gap:2rem;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+    .card{background:#fff;border:1px solid #ddd;border-radius:8px;overflow:hidden}
+    .card img{width:100%;display:block}
+    .card h3{margin:.8rem;color:var(--verde-oscuro)}
+    .card p{margin:0 .8rem .8rem;font-size:.9rem;color:#555}
+    .cta{background:var(--verde-agua);color:#fff;padding:.8rem 1.2rem;border:none;border-radius:4px;font-weight:bold;cursor:pointer}
+    footer{background:var(--verde-oscuro);color:#fff;text-align:center;padding:1rem;font-size:.8rem}
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="assets/1000177055.jpg" alt="Logo personal">
+  <h1>Luciano Luján</h1>
+  <p>Estudiante Diseño Gráfico | Asunción, Paraguay</p>
+</header>
+
+<nav>
+  <a href="#trabajos">Trabajos</a>
+  <a href="#cv">CV</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="trabajos">
+  <h2>Proyectos académicos</h2>
+  <div class="grid">
+    <!-- 1 -->
+    <div class="card">
+      <img src="assets/club12j_miniatura.jpg" alt="Manual Club 12 de Junio">
+      <h3>Club 12 de Junio – Manual de Marca</h3>
+      <p>Identidad institucional completa. 60 páginas + mock-ups.</p>
+      <a href="Club12J_manual.pdf" target="_blank" class="cta">Ver PDF</a>
+    </div>
+    <!-- 2 -->
+    <div class="card">
+      <img src="assets/kalyon_miniatura.jpg" alt="Manual Kalyon">
+      <h3>Kalyon Partners – Manual de Marca</h3>
+      <p>Branding tech start-up. Tipografía custom + 3D.</p>
+      <a href="KalyonPartners_manual.pdf" target="_blank" class="cta">Ver PDF</a>
+    </div>
+    <!-- 3 -->
+    <div class="card">
+      <img src="assets/kaaru_miniatura.jpg" alt="Manual Ka’aru">
+      <h3>Yerbatera Ka’aru – Manual de Marca</h3>
+      <p>Packaging artesanal. Paleta tierra + oro.</p>
+      <a href="Kaaru_manual.pdf" target="_blank" class="cta">Ver PDF</a>
+    </div>
+  </div>
+</section>
+
+<section id="cv">
+  <h2>Curriculum</h2>
+  <a href="Luciano_Lujan_CV.pdf" download class="cta">Descargar CV</a>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>
+    Gmail: <a href="mailto:lucianoparedes71.a@gmail.com">lucianoparedes71.a@gmail.com</a><br>
+    WhatsApp: <a href="https://wa.me/595992353729">+595 992 353 729</a><br>
+    Behance: <a href="https://www.behance.net/lucianolujn1" target="_blank">behance.net/lucianolujn1</a>
+  </p>
+</section>
+
+<footer>
+  © 2025 Luciano Luján – Diseño que respira verde.
+</footer>
+
+</body>
+</html>
